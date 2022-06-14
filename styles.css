@@ -243,18 +243,22 @@ nav>a{
     width: 30px;
     height: 30px;
 }
-.university{
-    border:1px solid black;
-    margin-top: -80px;
-    margin-left: 70%;
-    width: 100%;
+.title{
+   
+    position: relative;
+    top: 140px;
+    left: 450px;
+ 
+   
    
 }
 .modules{
     margin-left: 350px;
+    position: absolute;
+    top: 250px;
     display: grid;
     grid-template-columns: repeat(6,1fr);
-    margin-top: 150px;
+    /* margin-top: 150px; */
 }
 .nidcap{
     font-size: 20px;
