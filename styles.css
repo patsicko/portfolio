@@ -1,3 +1,8 @@
+
+.container{
+    width: 1200px;
+    
+}
 .about h1{
     visibility: visible;
 }
@@ -40,11 +45,12 @@ margin-left: 20%;
     position: absolute;
     left:0%; 
     top:220px;
-    background-color: #c2bcbca1;
+    background-color: rgba(194, 188, 188, 0.2);
     width: 20%;
     font-size:100px;
     height: 100%;
     line-height: 2;
+    
     
 }
    
@@ -254,11 +260,16 @@ nav>a{
    
 }
 .modules{
-    margin-left: 350px;
+    margin-left: 250px;
     position: absolute;
     top: 250px;
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(4,1fr);
+    background-color: rgb(12, 18, 18);
+    color: white;
+    font-size: 20px;
+    
+    /* visibility: hidden; */
     /* margin-top: 150px; */
 }
 .nidcap{
