@@ -286,7 +286,11 @@ nav>a{
  font-size: 28px;
  color: aliceblue;
 }
-
+.logo{
+    background-color: black;
+    border-radius: 50%;
+    margin-top: -20px;
+}
 
 
 

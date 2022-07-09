@@ -95,7 +95,11 @@ select{
     
 }
 
-
+.logo{
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 450px;
+}
 
 
 
@@ -115,6 +119,14 @@ select{
    input{
     width: 220px;
    }
+
+   .logo{
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 0px;
+    height: 480px;
+    width: 480px;
+}
  
  }
 
@@ -134,6 +146,13 @@ select{
         width: 320px;
        }
     
+       .logo{
+        margin-top: 100px;
+        position: absolute;
+        margin-left: 0px;
+        height: 480px;
+        width: 480px;
+    }
 }
 /* 
 // Large devices (desktops, 720px and up) */
@@ -152,11 +171,18 @@ select{
         width: 580px;
        }
 
+       .logo{
+        margin-top: 100px;
+        position: absolute;
+        margin-left: 0px;
+        height: 480px;
+        width: 480px;
+    }
        
        
         
     }
- }
+ 
 
 /* // X-Large devices (large desktops, 1080px and up) */
 @media (min-width: 1080px) {
@@ -172,6 +198,12 @@ select{
        input{
         width: 880px;
        }
+
+.logo{
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 450px;
+}
 
   }
 
@@ -189,6 +221,12 @@ select{
        input{
         width: 920px;
        }
+
+.logo{
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 450px;
+}
  }
 
 
