@@ -38,6 +38,7 @@ submit.addEventListener("click",e=>{
         congs.textContent=` Congratulations ${fname.value} ${lname.value}!!!
          your application is successfully received. You will obtain a feedback within 48 hours.`;
         console.log(`${fname.id}:${fname.value} ${lname.id}:${lname.value} ${email.id}:${email.value} ${password.id}:${password.value} ${education.id}:${education.value}`)
+        
     }
   else{
     congs.textContent=`Please, fill all the fields correctly!!`
